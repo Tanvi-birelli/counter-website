@@ -15,6 +15,7 @@ decreaseBtn.addEventListener("click", ()=>{
 })
 resetBtn.addEventListener("click", ()=>{
     if (value.textContent !=0){
-    value.textContent=0
+        count=0;
+        value.textContent=0
     }
 })
